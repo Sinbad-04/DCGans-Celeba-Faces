@@ -36,6 +36,7 @@ cd DCGans-Celeba-Faces
 2. Download dataset
 ```bash
 https://drive.google.com/drive/folders/1iopqsfD_a_caiqj2D8F23bEUsIaDphjL?usp=sharing
+```
 or download from https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
 3. Install dependencies
