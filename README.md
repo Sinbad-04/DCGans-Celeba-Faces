@@ -33,19 +33,22 @@ git clone https://github.com/your-username/DCGans-Celeba-Faces.git
 cd DCGans-Celeba-Faces
 
 2. Download dataset
+```bash
 https://drive.google.com/drive/folders/1iopqsfD_a_caiqj2D8F23bEUsIaDphjL?usp=sharing
 or download from https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
 3. Install dependencies
+```bash
 pip install -r requirements.txt
 
 4. Train the model
+```bash
 python train.py
 Default dataset: CelebA (you need to download it manually)
 Adjust hyperparameters in train.py if needed.
 
 5. Generate images
-
+```bash
 python test.py
 This loads the pretrained model and generates fake face images saved in generated_images/.
 
