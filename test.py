@@ -5,7 +5,7 @@ import os
 from model import Generator
 
 
-checkpoint_path = r"checkpoints/best.pth"
+checkpoint_path = r"checkpoints/dcgans_best.pth"
 output_dir = "generated_images"
 ngpu = 1
 nz = 100
