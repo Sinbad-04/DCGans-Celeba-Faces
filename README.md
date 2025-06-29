@@ -68,3 +68,7 @@ To monitor training:
 tensorboard --logdir=tensorboard/
 ```
 
+Loss D and G
+![image](https://github.com/user-attachments/assets/a8a8bf9d-2c1c-44e5-a0bd-867bb1f9196d)
+
+
