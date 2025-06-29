@@ -31,6 +31,7 @@ This project implements a Deep Convolutional GAN (DCGAN) to generate realistic h
 ```bash
 git clone https://github.com/your-username/DCGans-Celeba-Faces.git
 cd DCGans-Celeba-Faces
+```
 
 2. Download dataset
 ```bash
