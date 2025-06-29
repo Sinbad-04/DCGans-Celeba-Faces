@@ -62,6 +62,10 @@ This loads the pretrained model and generates fake face images saved in generate
 ✅ last.pth: Last checkpoint after final epoch
 
 
+https://github.com/user-attachments/assets/034d7231-42d7-4577-bbe9-11f94b246119
+
+
+
 📊 TensorBoard
 To monitor training:
 ```
