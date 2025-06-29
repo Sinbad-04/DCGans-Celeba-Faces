@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 import argparse
 import os
@@ -474,4 +474,4 @@ if __name__ == '__main__':
     args = get_args()
     train(args)
 
->>>>>>> 72c29a594bdcce9f24e9fe2f51b8519dafb86200
+
