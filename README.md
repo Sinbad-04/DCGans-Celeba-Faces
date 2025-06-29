@@ -1,3 +1,5 @@
+https://github.com/user-attachments/assets/034d7231-42d7-4577-bbe9-11f94b246119
+
 # 🧠 DCGAN - CelebA Face Generator
 
 This project implements a Deep Convolutional GAN (DCGAN) to generate realistic human face images using the CelebA dataset.
@@ -62,7 +64,7 @@ This loads the pretrained model and generates fake face images saved in generate
 ✅ last.pth: Last checkpoint after final epoch
 
 
-https://github.com/user-attachments/assets/034d7231-42d7-4577-bbe9-11f94b246119
+
 
 
 
