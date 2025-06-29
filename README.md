@@ -19,25 +19,25 @@ This project implements a Deep Convolutional GAN (DCGAN) to generate realistic h
 
 ## 🚀 How to Run
 
-### 1. Clone the repo
+1. Clone the repo
 
 ```bash
 git clone https://github.com/your-username/DCGans-Celeba-Faces.git
 cd DCGans-Celeba-Faces
 
-### 2. Download dataset
+2. Download dataset
 https://drive.google.com/drive/folders/1iopqsfD_a_caiqj2D8F23bEUsIaDphjL?usp=sharing
 or download from https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
-###3. Install dependencies
+3. Install dependencies
 pip install -r requirements.txt
 
-###4. Train the model
+4. Train the model
 python train.py
 Default dataset: CelebA (you need to download it manually)
 Adjust hyperparameters in train.py if needed.
 
-###5. Generate images
+5. Generate images
 
 python test.py
 This loads the pretrained model and generates fake face images saved in generated_images/.
