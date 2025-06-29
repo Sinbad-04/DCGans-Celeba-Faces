@@ -37,32 +37,34 @@ cd DCGans-Celeba-Faces
 ```bash
 https://drive.google.com/drive/folders/1iopqsfD_a_caiqj2D8F23bEUsIaDphjL?usp=sharing
 ```
-or download from https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+ or download from https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
 3. Install dependencies
 ```bash
 pip install -r requirements.txt
-
+```
 4. Train the model
 ```bash
 python train.py
+```
 Default dataset: CelebA (you need to download it manually)
 Adjust hyperparameters in train.py if needed.
 
 5. Generate images
 ```bash
 python test.py
+```
 This loads the pretrained model and generates fake face images saved in generated_images/.
 
 📦 Pretrained Models
 ✅ dcgan_best.pth: Best checkpoint (lowest validation loss)
 
-✅ dcgan_last.pth: Last checkpoint after final epoch
+✅ last.pth: Last checkpoint after final epoch
 
 
 📊 TensorBoard
 To monitor training:
-
+```
 tensorboard --logdir=tensorboard/
-
+```
 
