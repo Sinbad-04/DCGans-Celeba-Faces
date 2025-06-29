@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import torch
 import torchvision.utils as vutils
 import os
@@ -66,4 +66,4 @@ os.makedirs(output_dir, exist_ok=True)
 vutils.save_image(fake_images, os.path.join(output_dir, "image_generator.png"), nrow=8, normalize=True)
 
 
->>>>>>> 72c29a594bdcce9f24e9fe2f51b8519dafb86200
+
