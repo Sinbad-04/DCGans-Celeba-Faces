@@ -6,18 +6,25 @@ This project implements a Deep Convolutional GAN (DCGAN) to generate realistic h
 
 ## 📂 Project Structure
 ├── checkpoints/ # Model checkpoints (.pth files)
+
 ├── generated_images/ # Output images from generator
+
 ├── model.py # Generator and Discriminator definition
+
 ├── train.py # Training script
+
 ├── test.py # Testing / inference script
+
 ├── tensorboard/ # Training logs
+
 ├── requirements.txt # Required packages
+
 └── README.md # You're reading this
 
 
 ---
 
-## 🚀 How to Run
+ 🚀 How to Run
 
 1. Clone the repo
 
